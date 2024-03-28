@@ -1,0 +1,54 @@
+html {
+    font-family: sans-serif;
+  }
+  body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+  }
+  button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  }
+
+  /* Hover effect */
+  button:hover {
+      background-color: #45a049; /* Darker green */
+  }
+
+  /* Active effect */
+  button:active {
+      background-color: #3e8e41; /* Slightly darker green */
+  }
+  
+  .centerdiv{
+      width: 300px; /* Adjust width as needed */
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .title{
+      text-align: center;
+  }
+  
+  .picked_title{
+      text-align: center;
+  }
+
+  .container {
+          text-align: center;
+      }
+
+  .robot_picked{
+      text-align: center;
+  }
